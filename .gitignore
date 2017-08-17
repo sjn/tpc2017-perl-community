@@ -1,1 +1,6 @@
 *.bak
+0*
+*~
+*.swp
+.help
+.vimrc
