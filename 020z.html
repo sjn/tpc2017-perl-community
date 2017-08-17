@@ -1,0 +1,74 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "020d" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "021" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeydown="return navigate(event)">
+<div style="border-style: solid ; border-width: 2px ; font-size: x-large">
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                               Useful principles
+
+               - &quot;Not Invented Here&quot; syndrome != A Good Thing
+                 - No code sharing = No needback
+                 - Treat code as «Continuously Improving Summary of a Public Conversation»
+
+               - Remember your audience!
+                 - DO write code that makes people give feedback on *what* you do
+                 - DO NOT write code that makes people comment on *how* you do it
+                 - Follow conventions &amp; best practices
+                 - The &quot;Principle of Least Astonishment&quot; is your friend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</div>
+<br>
+<div style="font-size: small">
+<p></p>
+</div>
+</body>
+</html>

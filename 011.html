@@ -1,0 +1,74 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "010" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "012" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeydown="return navigate(event)">
+<div style="border-style: solid ; border-width: 2px ; font-size: x-large">
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Offline
+
+               - Perl Core Hackathon (p5hack)
+                 - New event as of 2017
+                 - For Perl 5 core hackers (p5p)
+                 - 2018: Possibly open for core newbies? (Stay tuned)
+
+               - Perl Toolchain Summit née the Perl QA Hackathon
+                 - Yearly gathering of Perl Toolchain hackers
+                 - Started in 2008 in Oslo
+                 - Sometimes open to newbies, but has lately been invitation-only
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</div>
+<br>
+<div style="font-size: small">
+<p></p>
+</div>
+</body>
+</html>
