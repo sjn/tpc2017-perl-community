@@ -8,11 +8,11 @@
 ---- config
 # Basic config options.
 title: Welcome to the Perl community, this is what you need to know
-indent: 15
+indent: 10
 auto_size: 1
 #vim_opts: '-u NONE'
 vim_opts: ''
-skip: 0
+skip: 1
 vimrc: |
     " Presentation remote has three buttons
     " forward: sends PageDown
@@ -127,7 +127,7 @@ Salve J. Nilsen <sjn@oslo.pm>
 - Perl Toolchain Summit née the Perl QA Hackathon
   - Yearly gathering of Perl Toolchain hackers
   - Started in 2008 in Oslo
-  - Sometimes open to newbies, but has lately been invitation-only
+  - Sometimes open to newbies, but lately invitation-only
 ---- center
 == Online
 ----
@@ -175,7 +175,8 @@ Salve J. Nilsen <sjn@oslo.pm>
 ----
 == Your Open Source Portfolio
 
-+- Get started with building your rep ("Personal Brand Management")
++- Get started with building your rep
++  - "Personal Brand Management"
 +- Improve your public image
 +- Make yourself easier to hire
 ----
@@ -190,13 +191,13 @@ Salve J. Nilsen <sjn@oslo.pm>
 
 - "Not Invented Here" syndrome != A Good Thing
   - No code sharing = No needback
-  - Treat code as «Continuously Improving Summary of a Public Conversation»
+  - «Continuously Improving Summary of a Public Conversation»
 
 - Remember your audience!
-+  - DO write code that makes people give feedback on *what* you do
-+  - DO NOT write code that makes people comment on *how* you do it
-+  - Follow conventions & best practices
-+  - The "Principle of Least Astonishment" is your friend
++- DO write make people give feedback on *what* you do
++- DO NOT make people comment on *how* you do it
++- Follow conventions & best practices
++- The "Principle of Least Astonishment" is your friend
 
 ----
 == Find useful stuff
@@ -236,7 +237,8 @@ Salve J. Nilsen <sjn@oslo.pm>
 
 - First: Please adhere to the Reasonable Person Principle!
 +  - http://www.irc.perl.org/reasonable_person.html
-+  - Say what you want to say, but accept and accommodate the needs of others
++  - Say what you want to say,
++  - ...but accept and accommodate the needs of others
 +- #perl-help on irc.perl.org
 +- #perl6 on irc.freenode.org
 ----
@@ -322,7 +324,7 @@ Salve J. Nilsen <sjn@oslo.pm>
 ----
 == NEEDHELP, HANDOFF and ADOPTME
 
-- If a module is owned by ADOPTME, you can request maintainership!
+- Module is owned by ADOPTME? Request maintainership!
 - Send a mail to the PAUSE admins <pause-admin@perl.org>
 - Current list is at
   - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=ADOPTME
@@ -331,14 +333,14 @@ Salve J. Nilsen <sjn@oslo.pm>
 ----
 == NEEDHELP, HANDOFF and ADOPTME
 
-- If a module has HANDOFF as co-maintainer, you can request maintainership!
+- Module has HANDOFF as co-maintainer? Request maintainership!
   - Send a mail to the current module maintainer
   - Current list at
     - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=HANDOFF
 ----
 == NEEDHELP, HANDOFF and ADOPTME
 
-- If a module is owned by NEEDHELP, you can offer to become a co-maintainer!
+- Module is owned by NEEDHELP? Offer to become a co-maintainer!
   - Send a mail to the current module mainteiner
   - Current list is at
     - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=NEEDHELP
@@ -385,7 +387,7 @@ Salve J. Nilsen <sjn@oslo.pm>
     - https://cpants.cpanauthors.org/
   - CPAN Testers // cpantesters.org
 - Use a publicly available source code reopsitory
-  - Popular ones include Github, Gitlab, GNU Savannah and Google Code.
+  - Popular ones: Github, Gitlab, GNU Savannah, Google Code.
 ----
 == Publish
 
@@ -412,8 +414,9 @@ Salve J. Nilsen <sjn@oslo.pm>
 - Bring them to other conferences
   - It can be a great icebreaker
 - But if someone complains, speak up
-  - "I think you're mistaken; the world today is quite different from a decade ago"
-+  - Stay positive & give a good impression!
+  - "I think you're mistaken;
+     the world today is quite different from a decade ago"
++- Stay positive & give a good impression!
 ----
 == Help event organizers
 
@@ -431,7 +434,9 @@ Salve J. Nilsen <sjn@oslo.pm>
 ----
 == How to organize an event?
 
-- http://perljam.info/ - “How to organize a conference ... and live to tell the tale”
+- http://perljam.info/
+  - “How to organize a conference ... and live to tell the tale”
+
 - Registration tools:
   - https://act.mongueurs.net/ for medium and large conferences
     - #act on irc.perl.org
@@ -484,13 +489,7 @@ Salve J. Nilsen <sjn@oslo.pm>
 - Help find speakers
 - Hang out on #yapc on irc.perl.org
 ---- center
-== What else?
-
-DONE_BRAINDUMPING
-
----- center
 == Q's, A's and C's
-
 
 ---- center
 == Thank you!
