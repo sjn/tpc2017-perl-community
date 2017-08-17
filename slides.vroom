@@ -1,0 +1,503 @@
+== This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Welcome to the Perl community, this is what you need to know
+indent: 15
+auto_size: 1
+#vim_opts: '-u NONE'
+vim_opts: ''
+skip: 0
+vimrc: |
+    " Presentation remote has three buttons
+    " forward: sends PageDown
+    " back: sends PageUp
+    " blank: sends b
+    " Bind PageUp to previous doc and PageDown to next doc
+    set colorcolumn=0
+    set nonumber
+    "set verbose=9
+    "set background=light
+    "colorscheme solarized
+    autocmd FileType ansi source ~/.vim/bundle/AnsiEsc/autoload/AnsiEsc.vim
+    autocmd FileType ansi exe "normal! AnsiEsc"
+    autocmd BufRead,BufNewFile *.asm set filetype=masm
+    " autocmd BufNewFile,BufRead *.ansi exe "normal! :AnsiEsc"
+
+---- i0
+,--------------v-----------------------------------------------v--------------.
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+|              |                                               |              |
+`--------------^-----------------------------------------------^--------------'
+---- center
+Welcome to the Perl community,
+
+this is what you need to know
+
+
+Salve J. Nilsen <sjn@oslo.pm>
+
+@sjoshuan
+----
+== Goals for this talk
+
+- Share some tribal knowledge
++- Help lower the barrier to entry for our community
++- Give you a taste of what's going on
++  - ..and maybe how to take part
+----
+== Goals for this talk
+
+- Opinions are personal
+- I might have forgotten things
++  - Feel free to ask as we go
++  - or add something!
+----
+== Audience of this talk
+
+- Anyone new to the Perl community
++- Anyone who cares about newbies
++  - If you're not one, I'm hereby recruiting you :)
+----
+== Structure of this talk
+
++- Basics
++- By type of a avtivity
++  - How to participate
+----
+== Key introductory elemental basics ...for beginners
+
+- Offline
+- Online
+----
+== Offline
+
+- Perl Mongers & meetups
+  - Irregular meetings
+  - Sometimes monthly
+
+- Find your nearest
+  - http://pm.org/groups
+  - https://perl.meetup.com
+----
+== Offline
+
+- The Perl Conference née YAPC
++- Perl Workshops
++  - French, Swiss, London, German
++  - Nordic
++    - There might be one in Oslo next year! (Stay tuned)
+
++- Perl Dancer Conference
++- Mojoconf
++  - Possibly back in 2018 (Stay tuned)
++- http://act.mongueurs.net/conferences.html
+----
+== Offline
+
+- FOSDEM Perl Dev Room
+  - One of the best Perl events outside 
+  - Organizers would love some help
+  - Talk with Claudion Ramírez (El_Che)
+----
+== Offline
+
+- Perl Core Hackathon (p5hack)
+  - New event as of 2017
+  - For Perl 5 core hackers (p5p)
+  - 2018: Possibly open for core newbies? (Stay tuned)
+
+- Perl Toolchain Summit née the Perl QA Hackathon
+  - Yearly gathering of Perl Toolchain hackers
+  - Started in 2008 in Oslo
+  - Sometimes open to newbies, but has lately been invitation-only
+---- center
+== Online
+----
+== Online
+
+- "If you're not on IRC, you don't exist"
+
++- irc.freenode.org
++  - #perl6
++  - https://irclog.perlgeek.de/perl6/ (by Moritz Lenz)
++
++- irc.perl.org
++  - #perl-help
++  - #p5p
++  - etc. etc.
+----
+== Online
+
+- Stack Overflow
+  - https://stackoverflow.com/tags/perl
+
+- Perlmonks
+  - http://perlmonks.org
+----
+== Online
+
+- Facebook
+  - Perl Programmers
+  - Perl6
+  - Perl Mongers
+
+- LinkedIn
+----
+== Online
+
++- Mithaldu's curated list of Perl 5 tutorials
++  - http://perl-tutorial.org/
++
++- http://perl6intro.com/
++- https://docs.perl6.org/language.html
+---- center
+== Key introductory elemental basics ...for beginners
+
+...how to make use of this?
+----
+== Your Open Source Portfolio
+
++- Get started with building your rep ("Personal Brand Management")
++- Improve your public image
++- Make yourself easier to hire
+----
+== Your Open Source Portfolio
+ 
+- What can *you* do to improve things?
++- Show off your good sides in public
++- Chatlogs, archives & commit logs are searchable
++- Anyone can do it! :)
+----
+== Useful principles
+
+- "Not Invented Here" syndrome != A Good Thing
+  - No code sharing = No needback
+  - Treat code as «Continuously Improving Summary of a Public Conversation»
+
+- Remember your audience!
++  - DO write code that makes people give feedback on *what* you do
++  - DO NOT write code that makes people comment on *how* you do it
++  - Follow conventions & best practices
++  - The "Principle of Least Astonishment" is your friend
+
+----
+== Find useful stuff
+----
+== Find useful software
+
+- Search on CPAN
+  - https://metacpan.org/
+  - https://search.cpan.org/
+- Want to help?
+  - MetaCPAN hackathon, meta::hack
+- https://modules.perl6.org
+----
+== Find useful code or comments
+
+- https://grep.cpan.me/
++- https://grep.metacpan.org/
+----
+== Curated list of modules
+
+- Task::Kensho
+  - Curated by the Enlightened Perl Organization (EPO)
+  - It's pretty good, but needs updating
+  - Discuss in #epo on irc.perl.org
+  - https://cpan.me/Task::Kensho
+
+- MSTPAN
+  - MST's opinionated list
+  - http://shadow.cat/blog/matt-s-trout/mstpan-1/
+
+- No good curated list for Perl 6
++  - Rakudo Star
+----
+== Ask for advice!
+----
+== Ask for advice
+
+- First: Please adhere to the Reasonable Person Principle!
++  - http://www.irc.perl.org/reasonable_person.html
++  - Say what you want to say, but accept and accommodate the needs of others
++- #perl-help on irc.perl.org
++- #perl6 on irc.freenode.org
+----
+== Ask for advice
+
+- Visit your local Perl Mongers community
+  - https://pm.org/
+  - https://perl.meetup.com/
+----
+== Ask for advice!
+
+- Stack Overflow's Perl groups
+----
+== Getting help from docs
+
+- http://perldoc.perl.org/perl.html#GETTING-HELP
+  - FAQ's, docs overview & more
+  - $ perldoc perltoc
++  - Note: perldoc(1) not always installed by default
+----
+== Using existing software
+
++- You found someting useful, and want to try it out!
++- NIH--
+----
+== Use existing software
+
+- Distro package managers (e.g. RPM, APT) offer lots of Perl
++  - Good to have, but not always good to use
++  - Install your own instead
++  - local::lib, cpanm, Carton, etc.
++- Perl 6 packages aren't very good yet
+----
+== Use existing software
+
+- CPAN has clients too
+  - App::cpanminus - good for every day use
+    - cpanm(1)
+    - https://cpanmin.us/
+  - CPANPLUS - good for generating distro packages (cpan2dist)
+  - CPAN.pm - mostly for legacy systems
+    - Has some useful features for advanced users
+
+- zef
+  - Perl6's installer since Rakudo Star release 2017.07
+----
+== Improve existing software
+
++- You found something useful, and want to help
+----
+== Improve existing software
+
+- Offer comments, ratings & support in Perl fora
+  - CPAN Ratings http://cpanratings.perl.org
+  - Volunteer in help channels on IRC
+  - Or on Stack Overflow
+----
+== Improve existing software
+
+- Report bugs & follow them up
+  - https://rt.cpan.org
+
++$ perlbug
++$ rakudobug
++
++- Not all bugtrackers are on RT! 
++  - https://metacpan.org/
+----
+== Improve existing software
+
+- Perl 5 itself
+  - perltodo points at the TODO file 
+  - Overwhelmed? Talk with a Perl 5 Porter!
+
+- Perl 6
+  - http://rakudo.org/how-to-help/
+----
+== Adopt existing software
+
+- CPAN has a new adoption scheme now!
+- Get maintainership with NEEDHELP, HANDOFF and ADOPTME
++- Announcement at http://neilb.org/2013/08/07/adoptme.html
+----
+== NEEDHELP, HANDOFF and ADOPTME
+
+- If a module is owned by ADOPTME, you can request maintainership!
+- Send a mail to the PAUSE admins <pause-admin@perl.org>
+- Current list is at
+  - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=ADOPTME
+- Complete list of candidates at
+  - http://neilb.org/adoption/
+----
+== NEEDHELP, HANDOFF and ADOPTME
+
+- If a module has HANDOFF as co-maintainer, you can request maintainership!
+  - Send a mail to the current module maintainer
+  - Current list at
+    - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=HANDOFF
+----
+== NEEDHELP, HANDOFF and ADOPTME
+
+- If a module is owned by NEEDHELP, you can offer to become a co-maintainer!
+  - Send a mail to the current module mainteiner
+  - Current list is at
+    - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=NEEDHELP
+----
+== Publish your own software
+
+- Don't!
+- Unless there's a real need for it
+----
+== Is your software needed?
+
+- Check for viability "smells"
+  - Is there an expressed need or a vacuum to fill?
+  - Is it an "infrastructure"?
+  - Can others use it to create value?
+- Are there market/strategic reasons to publish?
+----
+== Useful concepts and terms to know about
+
+- DarkPAN
+  - Perl modules that aren't part of CPAN
++  - Typically $work's Perl module ecosystem
++  - Need help managing it?
++    - Pinto
++    - OrePAN2
+----
+== Useful concepts and terms to know about
+
+- BackPAN
+  - A copy of everything that has ever been released on CPAN
++    - http://backpan.perl.org/
++    - http://backpan.cpantesters.org/
++  - You can mirror it from $site/authors/id/
++  - Archives of it are in circulation (~62 GB)
+----
+== Before you publish
+
+- Make it easy to contribute!
+- Don't waste the reader's attention on unconventional stuff
+  - Perl::Tidy is your friend, add a .perltidyrc
+  - CPANTS & Test::Kwalitee
+    - Automated tests for "lack of code smells"
+    - Useful for avoiding common mistakes
+    - https://cpants.cpanauthors.org/
+  - CPAN Testers // cpantesters.org
+- Use a publicly available source code reopsitory
+  - Popular ones include Github, Gitlab, GNU Savannah and Google Code.
+----
+== Publish
+
+- CPAN: Upload your tarball to PAUSE (The Perl Authors Upload Server)
+  - https://pause.perl.org/
+
+- modules.perl6.org: Pull request to the Perl6 Ecosystem repository
+  - https://github.com/perl6/ecosystem
+
+----
+== Help improve the ecosystem
+
+- The Perl Toolchain Summit
+  - http://act.qa-hackathon.org/qa2017/
+  - Location of next one hasn't been decided yet
+
+- Perl 5 Core Hackathon
+----
+== Outreach
+----
+== Outreach Basics
+
+- Wear your Perl t-shirts proudly!
+- Bring them to other conferences
+  - It can be a great icebreaker
+- But if someone complains, speak up
+  - "I think you're mistaken; the world today is quite different from a decade ago"
++  - Stay positive & give a good impression!
+----
+== Help event organizers
+
+- Volunteering is a great way to get into the Perl community!
+- The feeling of accomplishment afterwards is worth it all. :)
+- If you can't, offer at least some feedback!
+  - http://yapc-surveys.org/
++  - Pending updates due to s/YAPC/TPC/g
+----
+== Organize events
+
+- Involve a pm.org|perl.meetup.com group
++- Or your $job, if it needs visibility
++- Perl Workshops, Hackathons, Dev rooms, BoF sessions
+----
+== How to organize an event?
+
+- http://perljam.info/ - “How to organize a conference ... and live to tell the tale”
+- Registration tools:
+  - https://act.mongueurs.net/ for medium and large conferences
+    - #act on irc.perl.org
+    - Also handles payment
+  - https://meetup.com/ for small events
+----
+== How to organize an event?
+
+- Get the word out!
++  - http://theperlreview.com/community_calendar
++  - Twitter: @perlbuzz
++    - mailto:editors@perlbuzz.com (Andy Lester)
++  - Many other places (fb, hackernews, reddit, etc.)
++  - Make sure to reach people outside the Perl community!
+----
+== How to organize an event?
+
+- And finally, it's worth repeating...
++  - Repeat yourself
++  - Repeat yourself
++  - Repeat yourself
++  - Repeat yourself
++- Your event success depends on it!
+----
+== Too much? You're not alone!
+
+- Talk with seasoned organizers here at the Perl Conference!
+  - They're easy to find, just ask around
++  - Most of them like beer too. (hint, hint. :)
+----
+== Guides and other community resources
+
+- Perl Jam
+  - Written by Barbie & others
++  - http://perljam.info
++  - https://github.com/barbie/perl-jam
+----
+== "I don't want to organize stuff" 
+----
+== Get your business to support the community
+
+- If there are too many freeloaders, the community will decline
+- Be the community spokesperson at $work
+- Make $job support Perl community organizations (TPF, EPO, etc.)
+  - Monthly donations are awesome
+----
+== Become a Cloud orga
+
+- Help find sponsors
+- Help find speakers
+- Hang out on #yapc on irc.perl.org
+---- center
+== What else?
+
+DONE_BRAINDUMPING
+
+---- center
+== Q's, A's and C's
+
+
+---- center
+== Thank you!
+
+Salve J. Nilsen
+
+@sjoshuan
+
+Link to slides will show up on this
+talk's page on the TPCiA website
